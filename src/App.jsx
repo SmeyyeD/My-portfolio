@@ -1,12 +1,15 @@
-import './App.css'
+import HeroSection from './components/HeroSection';
+import ModeSwitch from './components/ModeSwitch';
 
 function App() {
 
 
   return (
     <>
-
+      <HeroSection />
+      <ModeSwitch />
     </>
+
   )
 }
 
