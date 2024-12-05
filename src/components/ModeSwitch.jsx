@@ -2,7 +2,7 @@ import React from 'react'
 
 function ModeSwitch() {
     return (
-        <div>ModeSwitch</div>
+        <div></div>
     )
 }
 
