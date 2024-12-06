@@ -21,40 +21,43 @@ const languagesData = {
             aboutMe2: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, autem!",
             aboutMe3: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius alias ab fugiat, minus doloribus nam sapiente explicabo placeat nihil",
         },
+        project: [
+            {
+                projectHeader: "Projects",
+                name: "Baby Store",
+                description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nulla",
+                skill: [
+                    "Javascript",
+                    "React",
+                    "Css",
+                    "Html",],
+                wievToGithub: "Github'da görüntüle",
+                application: "Uygulamaya git",
+                photo: "./images/baby.png",
+            },
+            {
+                name1: "Netflix",
+                description1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nulla",
+                skill1: [
+                    "Javascript",
+                    "React",
+                    "Axios",
+                    "Css",
+                    "Html",
+                ],
+                wievToGithub1: "Github'da görüntüle",
+                application1: "Uygulamaya git",
+                photo: "./images/pizza.jpg"
+            },
 
-        aboutMe: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis enim quisquam cumque molestiae, explicabo atque voluptates minima molestias repellendus fugit.",
+        ],
+        orientation: "bir sonraki ürününüz üzerinde birlikte çalışalım",
+        github: "Github",
+        personalBlog: "Personal Blog",
+        linkedin: "LinkedIn",
+        email: "Email",
     },
-    project: {
-        name: "Pizza",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nulla",
-        skill: [
-            "Javascript",
-            "React",
-            "Axios",
-            "Css",
-            "Html",
-        ]
-    },
-    wievToGithub: "Github'da görüntüle",
-    application: "Uygulamaya git",
-    project: {
-        name: "Netflix",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nulla",
-        skill: [
-            "Javascript",
-            "React",
-            "Axios",
-            "Css",
-            "Html",
-        ]
-    },
-    wievToGithub: "Github'da görüntüle",
-    application: "Uygulamaya git",
-    orientation: "bir sonraki ürününüz üzerinde birlikte çalışalım",
-    github: "Github",
-    personalBlog: "Personal Blog",
-    linkedin: "LinkedIn",
-    email: "Email",
 }
+
 
 export default languagesData;
