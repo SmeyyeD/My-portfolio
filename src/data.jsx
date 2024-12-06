@@ -10,46 +10,51 @@ const languagesData = {
             skillHeading: "Yeteneklerim",
             currentSkills: ["Javascript", "React", "Redux", "Node", "VsCode", "Figma"],
         },
-        profile: "Profil",
-        profileHeader: "Kişisel Bİlgilerim",
-        info: {
-            name: "Doğum Tarihi", value: "09.10.1994",
-            name: "İkamet Şehir", value: "Samsun",
-            name: "Eğitim Durumu", value: "Bozok Üniversites,i Bİlgisayar Destekli Tasarım ve Animasyonu",
-            name: "Tercih Ettiği Rol", value: "Front-End Developer",
+        profile: {
+            profileHeading: "Profile",
+            basicInfoText: "Temel Bilgiler",
+            dateOfBirth: ["Doğum Tarihi", "10.09.1994"],
+            currentLocation: ["İkamet Şehri", "Samsun-Türkiye"],
+            education: ["Eğitim Durumu", "Bozok Üniversitesi, Bİlgisayar Destekli ve Tasarım Animasyonu"],
+            preferredRole: ["Preferred Role", "Full-stack Web Developer"],
+            aboutMe: "Hakkımda",
+            aboutMe2: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, autem!",
+            aboutMe3: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius alias ab fugiat, minus doloribus nam sapiente explicabo placeat nihil",
         },
+
         aboutMe: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis enim quisquam cumque molestiae, explicabo atque voluptates minima molestias repellendus fugit.",
-        project: {
-            name: "Pizza",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nulla",
-            skill: [
-                "Javascript",
-                "React",
-                "Axios",
-                "Css",
-                "Html",
-            ]
-        },
-        wievToGithub: "Github'da görüntüle",
-        application: "Uygulamaya git",
-        project: {
-            name: "Netflix",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nulla",
-            skill: [
-                "Javascript",
-                "React",
-                "Axios",
-                "Css",
-                "Html",
-            ]
-        },
-        wievToGithub: "Github'da görüntüle",
-        application: "Uygulamaya git",
-        orientation: "bir sonraki ürününüz üzerinde birlikte çalışalım",
-        github: "Github",
-        personalBlog: "Personal Blog",
-        linkedin: "LinkedIn",
-        email: "Email",
     },
+    project: {
+        name: "Pizza",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nulla",
+        skill: [
+            "Javascript",
+            "React",
+            "Axios",
+            "Css",
+            "Html",
+        ]
+    },
+    wievToGithub: "Github'da görüntüle",
+    application: "Uygulamaya git",
+    project: {
+        name: "Netflix",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nulla",
+        skill: [
+            "Javascript",
+            "React",
+            "Axios",
+            "Css",
+            "Html",
+        ]
+    },
+    wievToGithub: "Github'da görüntüle",
+    application: "Uygulamaya git",
+    orientation: "bir sonraki ürününüz üzerinde birlikte çalışalım",
+    github: "Github",
+    personalBlog: "Personal Blog",
+    linkedin: "LinkedIn",
+    email: "Email",
 }
+
 export default languagesData;
