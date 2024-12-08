@@ -1,3 +1,4 @@
+import React from 'react';
 import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
 import MainSection from './components/MainSection';
@@ -20,4 +21,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

@@ -3,7 +3,7 @@ const languagesData = {
     tr: {
         hero: {
             greeting: "Selam! 👋",
-            intro: "Ben Sümeyye. Kariyerimi frontend alanında geliştirmek ve daha ileriye taşımak için kendimi geliştiriyorum. Gelişimimi daha yakından görmek için sayfalarımı ziyaret etmek ister misin? ",
+            intro: "Ben Sümeyye. Kariyerimi frontend alanında geliştirmek\nve daha ileriye taşımak için kendimi geliştiriyorum.\nGelişimimi daha yakından görmek için sayfalarımı\nziyaret etmek ister misin? ",
             communication: `Şu anda UX, UI, WEB TASARIM PROJESİ için Freelance olarak çalışıyorum.Beni ekibine katılmaya davet et`,
         },
         skill: {
@@ -21,6 +21,19 @@ const languagesData = {
             aboutMe2: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, autem!",
             aboutMe3: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius alias ab fugiat, minus doloribus nam sapiente explicabo placeat nihil",
         },
+
+        profilev2: {
+            heading: "Profile",
+            descriptio: "Temel Bilgiler",
+            dateOfBirth: ["Doğum Tarihi", "10.09.1994"],
+            currentLocation: ["İkamet Şehri", "Samsun-Türkiye"],
+            education: ["Eğitim Durumu", "Bozok Üniversitesi, Bİlgisayar Destekli ve Tasarım Animasyonu"],
+            preferredRole: ["Preferred Role", "Full-stack Web Developer"],
+            aboutMe: "Hakkımda",
+            aboutMe2: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, autem!",
+            aboutMe3: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius alias ab fugiat, minus doloribus nam sapiente explicabo placeat nihil",
+        },
+
         project: [
             {
                 projectHeader: "Projects",

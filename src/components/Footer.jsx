@@ -17,7 +17,7 @@ function Footer() {
                 <div className="text-left text-xl">
                     <p><a href="https://github.com/SmeyyeD" target="_blank" rel="noopener noreferrer" className="hover:underline text-blue-600">{github}</a></p>
                     <p>{personalBlog}</p>
-                    <p><a href="https://www.linkedin.com/in/s%C3%BCmeyye-dan%C4%B1%C5%9Fmaz-b15993312/" target="_blank" rel="noopener noreferrer" className="hover:underline text-blue-600">{linkedin}</a></p>
+                    <p><a href="https://github.com/SmeyyeD" target="_blank" rel="noopener noreferrer" className="hover:underline text-blue-600">{linkedin}</a></p>
                     <p className='text-red-700'>{email}</p>
                 </div>
             </div>
