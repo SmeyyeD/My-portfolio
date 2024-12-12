@@ -46,7 +46,7 @@ function Profile() {
                     </table>
                 </div>
 
-                <div className="flex flex-col items-start space-y-4" style={{ maxWidth: "400px" }}>
+                <div className="flex flex-col items-start space-y-4 text-xs" style={{ maxWidth: "400px" }}>
                     <h3 className='font-bold '>{aboutMe}</h3>
                     <p>{aboutMe2}</p>
                     <p>{aboutMe3}</p>

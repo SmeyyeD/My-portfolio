@@ -1,8 +1,7 @@
-import React from 'react'
+
 import languagesData from '../data.jsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-
 
 
 const HeroSection = () => {
@@ -13,6 +12,9 @@ const HeroSection = () => {
         <div className="min-h-screen flex justify-center items-center px-16 bg-[#ecedeb]" >
             <div className="grid grid-cols-2 items-center">
                 <div className="text-left space-y-4 justify-center items-center">
+                    <div className="flex justify-end text-neutral-500 font-bold tracking-[0.1rem] text-base">
+
+                    </div>
                     <div>
                         <h1 className="text-2xl">{greeting}</h1>
                         <p className="text-xl tracking-wider leading-loose font-['Inter'] text-[20px] font-semibold">{intro.split('\n').map((line, index) => (
@@ -28,7 +30,7 @@ const HeroSection = () => {
                             </a>
 
                         </div>
-                        <h5 className="text-sm mt-6">
+                        <h5 className="text-xs mt-6">
                             {""}
                             {communication.split("Beni ekibine katılmaya davet et")[0]}
                             <br />
