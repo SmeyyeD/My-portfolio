@@ -10,7 +10,7 @@ const HeroSection = () => {
 
     return (
 
-        <div className="min-h-screen flex justify-center items-center px-4 sm:px-8 lg:px-16 bg-[#ecedeb]">
+        <div className="min-h-[90vh] flex justify-center items-center px-4 sm:px-8 lg:px-16 bg-[#ecedeb] pb-10">
             <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
                 <div className="text-left space-y-4 justify-center items-center">
                     <div className="flex justify-end text-neutral-500 font-bold tracking-[0.1rem] text-sm sm:text-base">

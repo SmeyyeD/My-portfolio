@@ -13,9 +13,9 @@ function Profile() {
     return (
         <div className={`bg-[#ecedeb] h-[30rem] pt-8`}>
             <h3 className="text-center text-3xl mt-8">{profileHeading}</h3>
-            <section className="flex justify-center items-center gap-8 mt-8 ">
-                <div className='bg-white w-[508px] rounded-[12px] px-8 py-8 h-64 space-y-4 shadow-gray-500/200 shadow-gray-700 shadow-[15px_15px_15px_rgba(0,0,0,0.6)]'>
-                    <h4 className='text-lg text-rose-500'>{basicInfoText}</h4>
+            <section className="flex flex-wrap justify-center items-center gap-8 mt-8 px-4 sm:px-6 md:px-8">
+                <div className="bg-white w-full max-w-[508px] rounded-[12px] px-8 py-8 h-64 space-y-4 shadow-gray-500/200 shadow-gray-700 shadow-[15px_15px_15px_rgba(0,0,0,0.6)]">
+                    <h4 className="text-lg text-rose-500">{basicInfoText}</h4>
                     <table className="w-full">
                         <tbody>
                             <tr className="space-y-2">
@@ -46,8 +46,10 @@ function Profile() {
                     </table>
                 </div>
 
-                <div className="flex flex-col items-start space-y-4 text-xs" style={{ maxWidth: "400px" }}>
-                    <h3 className='font-bold '>{aboutMe}</h3>
+                <div
+                    className="flex flex-col items-start space-y-4 text-xs w-full max-w-[400px]"
+                >
+                    <h3 className="font-bold">{aboutMe}</h3>
                     <p>{aboutMe2}</p>
                     <p>{aboutMe3}</p>
                 </div>
