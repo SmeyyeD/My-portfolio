@@ -15,10 +15,10 @@ const languagesData = {
             basicInfoText: "Temel Bilgiler",
             dateOfBirth: ["Doğum Tarihi", "10.09.1994"],
             currentLocation: ["İkamet Şehri", "Samsun-Türkiye"],
-            education: ["Eğitim Durumu", "Bozok Üniversitesi, Bİlgisayar Destekli ve Tasarım Animasyonu"],
+            education: ["Eğitim Durumu", "Bozok Üniversitesi, Bilgisayar Destekli ve Tasarım Animasyonu"],
             preferredRole: ["Preferred Role", "Full-stack Web Developer"],
             aboutMe: "Hakkımda",
-            aboutMe2: "Bilgisayar Destekli Tasarım ve Animasyon eğitimimi tamamladıktan sonra, programdaki web tasarım dersi sayesinde yazılıma olan ilgimi keşfettim. Bu ilgiyle birlikte temel yazılım bilgilerini öğrenmeye başladım ve kendimi geliştirme yolculuğuna adım attım.",
+            aboutMe2: "Bilgisayar Destekli Tasarım ve Animasyon'u bölümündeki eğitimimi tamamladıktan sonra, programdaki web tasarım dersi sayesinde yazılıma olan ilgimi keşfettim. Bu ilgiyle birlikte temel yazılım bilgilerini öğrenmeye başladım ve kendimi geliştirme yolculuğuna adım attım.",
             aboutMe3: "3 aylık yoğun bir Workintech Frontend eğitim programını başarıyla tamamlayarak bu alandaki teknik bilgi ve becerilerimi ileri seviyeye taşıdım. Şimdi, frontend alanında daha fazla deneyim kazanmayı ve kendimi geliştirmeye devam etmeyi sabırsızlıkla bekliyorum.",
         },
 
