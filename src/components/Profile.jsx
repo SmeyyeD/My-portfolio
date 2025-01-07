@@ -39,7 +39,7 @@ function Profile() {
                     </table>
                 </div>
 
-                <div className="flex flex-col items-start space-y-4 text-xs sm:text-sm w-full sm:w-[400px] lg:w-[500px] mt-4 sm:mt-0">
+                <div className="flex flex-col items-start space-y-4 text-xs sm:text-sm w-full sm:w-[400px] lg:w-[500px] mt-4 sm:mt-0 mb-2">
                     <h3 className="font-bold">{aboutMe}</h3>
                     <p className="break-words">{aboutMe2}</p>
                     <p className="break-words">{aboutMe3}</p>
