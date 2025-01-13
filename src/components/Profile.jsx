@@ -17,19 +17,19 @@ function Profile() {
                 {/* Info Card */}
                 <div className="bg-white w-full max-w-[508px] rounded-[12px] px-8 py-8 h-64 space-y-4 shadow-gray-500/200 shadow-gray-700 shadow-[15px_15px_15px_rgba(0,0,0,0.6)]">
                     <h4 className="text-lg text-rose-500">{basicInfoText}</h4>
-                    <table className="w-full text-xs sm:text-sm md:text-base">
+                    <table className="w-full text-xs sm:text-sm md:text-base h-32">
                         <tbody>
                             <tr className="space-y-2">
                                 <td><strong>{dateOfBirth[0]}</strong></td>
                                 <td>{dateOfBirth[1]}</td>
                             </tr>
-                            <tr className="space-y-2">
+                            <tr className="space-y-2 border-separate">
                                 <td className="pr-8 sm:pr-16"><strong>{currentLocation[0]}</strong></td>
                                 <td>{currentLocation[1]}</td>
                             </tr>
                             <tr className="space-y-2">
                                 <td><strong>{education[0]}</strong></td>
-                                <td className="max-w-[300px] truncate">{education[1]}</td>
+                                <td className="max-w-[300px] berak-word">{education[1]}</td>
                             </tr>
                             <tr className="space-y-2">
                                 <td><strong>{preferredRole[0]}</strong></td>
